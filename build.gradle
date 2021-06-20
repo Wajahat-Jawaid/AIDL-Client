@@ -27,19 +27,9 @@ buildscript {
 
         // Testing dependencies
         junitVersion = '4.12'
-        espressoVersion = '3.1.1'
         coreTestingVersion = '2.0.0'
-        jacocoVersion = '0.8.4'
-        runnerVersion = '1.0.1'
-        testExtJunit = '1.1.0'
-        uiAutomatorVersion = '2.2.0'
         mockitoVersion = "2.25.0"
-        mockitoAllVersion = "1.10.19"
-        mockitoAndroidVersion = "2.25.0"
         mockwebserverVersion = "3.8.1"
-        testCoreVersion = "1.1.0"
-        testRunnerVersion = "1.1.1"
-        testRulesVersion = "1.1.1"
     }
     repositories {
         google()
