@@ -2,6 +2,7 @@ package com.wajahat.golootloandroidtest
 
 import android.app.Activity
 import android.app.Application
+import android.content.Context
 import com.wajahat.golootloandroidtest.di.AppInjector
 import dagger.android.DispatchingAndroidInjector
 import dagger.android.HasActivityInjector
@@ -25,4 +26,10 @@ class App : Application(), HasActivityInjector {
     }
 
     override fun activityInjector() = dispatchingAndroidInjector
+
+    companion object {
+        fun getInstance() : Context {
+            return Application()
+        }
+    }
 }

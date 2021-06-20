@@ -34,9 +34,6 @@ class MainActivity : AppCompatActivity(), HasSupportFragmentInjector {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-//        val binding: ActivityMainBinding = DataBindingUtil.setContentView(this,
-//            R.layout.activity_main)
-
         navHostFragment =
             supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as NavHostFragment
         navController = navHostFragment.navController

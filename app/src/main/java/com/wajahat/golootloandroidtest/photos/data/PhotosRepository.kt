@@ -4,6 +4,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.distinctUntilChanged
 import androidx.paging.LivePagedListBuilder
 import androidx.paging.PagedList
+import com.wajahat.golootloandroidtest.OpenForTesting
 import com.wajahat.golootloandroidtest.data.resultLiveData
 import kotlinx.coroutines.CoroutineScope
 import javax.inject.Inject
@@ -13,6 +14,7 @@ import javax.inject.Singleton
  * Created by Wajahat Jawaid(wajahatjawaid@gmail.com)
  */
 @Singleton
+@OpenForTesting
 class PhotosRepository @Inject constructor(
     private val dao: PhotoDao,
     private val remoteDataSource: PhotosRemoteDataSource
