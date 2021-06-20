@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="margin_normal">16dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_large">34dp</dimen>
+    <dimen name="margin_grid">2.5dp</dimen>
+    <dimen name="margin_listing">20dp</dimen>
+
+    <!-- Text sizes -->
+    <dimen name="text_xlarge">26sp</dimen>
+    <dimen name="text_small">13sp</dimen>
+
+    <dimen name="list_item_author_image_size">40dp</dimen>
+    <dimen name="fragment_photo_details_overlay_height">300dp</dimen>
+</resources>

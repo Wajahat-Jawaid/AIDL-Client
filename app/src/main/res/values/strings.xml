@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Golootlo Android Test</string>
+    <string name="comment">Comment</string>
+    <string name="comments_count">%d Comments</string>
+    <string name="delete">Delete</string>
+    <string name="download">Download</string>
+    <string name="like">Like</string>
+    <string name="likes_count">%d Likes</string>
+    <string name="photo">photo</string>
+
+    <!-- Messages -->
+    <string name="image_download_in_progress">Image downloading is in progress</string>
+    <string name="grant_permission_image">Grant permission to save image</string>
+</resources>

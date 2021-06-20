@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" />
+
+    <style name="AppTheme.PhotosList" />
+    <style name="AppTheme.PhotoDetails" />
+
+    <style name="AppTheme.PhotosList.Item">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/text_small</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:textColor">@color/grey_normal</item>
+        <item name="android:drawablePadding">@dimen/margin_small</item>
+    </style>
+
+    <style name="AppTheme.PhotoDetails.StatsText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/margin_normal</item>
+        <item name="android:layout_marginBottom">@dimen/margin_large</item>
+        <item name="android:drawablePadding">@dimen/margin_small</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_small</item>
+        <item name="drawableTint">@color/white</item>
+    </style>
+</resources>
