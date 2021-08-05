@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="profile"
+            type="com.wajahat.socialmobiletestclient.data.Profile" />
+    </data>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_xsmall"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/welcome"
+            android:textAppearance="?attr/textAppearanceHeadline4"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_large"
+            android:fontFamily="@font/montserrat_semi_bold"
+            android:text="@string/great_to_see_you"
+            android:textColor="@color/grey_dark" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_large"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/AppTheme.Profile.Text.Label"
+                    android:text="@string/first_name" />
+
+                <TextView
+                    style="@style/AppTheme.Profile.Text.Label"
+                    android:text="@string/last_name" />
+
+                <TextView
+                    style="@style/AppTheme.Profile.Text.Label"
+                    android:text="@string/age" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/AppTheme.Profile.Text"
+                    android:text="@{profile.firstname}"
+                    tools:text="@string/first_name" />
+
+                <TextView
+                    style="@style/AppTheme.Profile.Text"
+                    android:text="@{profile.lastname}"
+                    tools:text="@string/last_name" />
+
+                <TextView
+                    style="@style/AppTheme.Profile.Text"
+                    android:text="@{String.valueOf(profile.age)}"
+                    tools:text="@string/age" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</layout>
