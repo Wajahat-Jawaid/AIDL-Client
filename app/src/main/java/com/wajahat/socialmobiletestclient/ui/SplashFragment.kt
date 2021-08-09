@@ -24,7 +24,7 @@ class SplashFragment : BaseFragment<FragmentSplashBinding>() {
     }
 
     companion object {
-        private const val FAKE_LOADING_DURATION = 3000L
+        private const val FAKE_LOADING_DURATION = 2000L
     }
 
     override fun getViewId() = R.layout.fragment_splash
