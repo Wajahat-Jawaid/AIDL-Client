@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SocialMobileTest - Client</string>
+    <string name="app_name">AIDL - Client</string>
     <string name="age">Age</string>
     <string name="email">Email</string>
     <string name="first_name">First Name</string>

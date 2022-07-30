@@ -5,7 +5,7 @@
 
         <variable
             name="profile"
-            type="com.wajahat.socialmobiletestclient.data.Profile" />
+            type="com.wajahat.aidlclient.data.Profile" />
     </data>
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
