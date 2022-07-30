@@ -14,7 +14,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.wajahat.socialmobiletestclient"
+        applicationId "com.wajahat.aidlclient"
         minSdkVersion rootProject.minSdkVersion
         targetSdkVersion rootProject.targetSdkVersion
         versionCode 1
@@ -26,7 +26,6 @@ android {
     buildTypes {
         debug {
             minifyEnabled false
-            buildConfigField "String", "BASE_URL", "\"http://swappyland.co.uk/accounts/\""
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
         release {

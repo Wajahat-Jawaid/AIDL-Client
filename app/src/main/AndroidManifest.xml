@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.wajahat.socialmobiletestclient">
+    package="com.wajahat.aidlclient">
 
     <application
-        android:name=".core.App"
+        android:name="com.wajahat.aidlclient.core.App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.SocialMobileAndroidTest">
+        android:theme="@style/App.Theme">
         <activity
-            android:name=".ui.MainActivity"
+            android:name="com.wajahat.aidlclient.ui.MainActivity"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,7 +19,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <service android:name=".service.ProfileResponseHandlerService">
+        <service android:name="com.wajahat.aidlclient.service.ProfileResponseHandlerService">
             <intent-filter>
                 <action android:name="profileResponse" />
             </intent-filter>
