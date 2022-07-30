@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/splash_fragment"
-        android:name="com.wajahat.socialmobiletestclient.ui.SplashFragment"
+        android:name="com.wajahat.aidlclient.ui.SplashFragment"
         android:label="@string/app_name"
         tools:layout="@layout/fragment_splash">
 
@@ -25,7 +25,7 @@
 
     <fragment
         android:id="@+id/login_fragment"
-        android:name="com.wajahat.socialmobiletestclient.ui.login.LoginFragment"
+        android:name="com.wajahat.aidlclient.ui.login.LoginFragment"
         android:label="@string/app_name"
         tools:layout="@layout/fragment_login" />
 </navigation>
