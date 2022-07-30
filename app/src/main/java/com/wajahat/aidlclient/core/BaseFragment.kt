@@ -44,10 +44,6 @@ abstract class BaseFragment<out VDB> : Fragment() {
     }
 
     fun showToast(@StringRes text: Int) {
-        showToast(getString(text))
-    }
-
-    fun showToast(text: String) {
         Toast.makeText(context, text, Toast.LENGTH_SHORT).show()
     }
 
