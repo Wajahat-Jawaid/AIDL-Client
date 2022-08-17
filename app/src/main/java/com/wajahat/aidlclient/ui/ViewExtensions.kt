@@ -11,7 +11,7 @@ import android.widget.EditText
  * @param debounceTime default debounce time of 400 ms
  * @param action method to be invoked
  * */
-fun View.throttlingClickListener(debounceTime: Long = 400L, action: () -> Unit) {
+fun View.throttlingClickListener(debounceTime: Long = 300L, action: () -> Unit) {
     this.setOnClickListener(object : View.OnClickListener {
         private var lastClickTime: Long = 0
 
